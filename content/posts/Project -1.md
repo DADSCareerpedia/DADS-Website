@@ -2,6 +2,8 @@
 title = 'Electoral Bond Data - 1'
 date = 2024-04-22T08:09:41+05:30
 draft = false
+tags = ["EDA", "Bonddata"]
+categories =  ["Electoral_Bond_Data"]
 +++
 
 ---

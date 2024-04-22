@@ -2,5 +2,30 @@ baseURL: https://example.org/
 languageCode: en-us
 title: My New Hugo Site
 theme: ["PaperMod"]
-enableEmoji: true
+enableEmoji: true 
 
+params: 
+  cover: 
+    linkFullImages: true
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true 
+
+menu:
+  main: 
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 30 
+
+
+      
